@@ -1,9 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-;
+
 }
-.title {text-align: center;}
-h3 {text-align: center;}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: #cccccc;
+    width: 93%;
+    align-items: center;
+
+
+}
+
+.topnav a {
+
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #999;
+    color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #999;
+    justify-content: center;
+    margin-top: 11.2%;
+
+
+}
+
+.subFooter {
+    margin-top: 40px;
+}
+
+.img {
+    width: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-color{
+    color: rgb(234, 2, 2);
+    font-family:serif
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.img-personal{
+    width: 15%;
+    height:15%;
+    margin-left: 2%;
+}
+.desc{
+    border: 2px solid rgb(0, 0, 0);
+   margin-left: 5%;
+   display: flex;
+    justify-content: center;
+    
+}
+.center2{
+    margin: auto;
+}
+.contact{
+    font-family:serif;
+    color: rgb(120, 8, 8);
+}
+.center-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn-send{
+width: 10%;
+background-color: blueviolet;
+padding: 15px 32px;
+  text-align: center;
+  text-decoration: double;
+  
+}
